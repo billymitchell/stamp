@@ -1,2 +1,8 @@
-const sentenceTag = document.querySelector(`input[type="text"]`)
-const colorTags = document.querySelectorAll("div.colors div")
+function showPW() {
+    var pw = document.getElementById("pw");
+    if (pw.type === "password") {
+      pw.type = "text";
+    } else {
+      pw.type = "password";
+    }
+}
