@@ -28,7 +28,7 @@ body::before {
   bottom: 0;
   right: 0;
   z-index: 0;
-  background-image: url('/img/bg.jpg');
+  background-image: url('https://res.cloudinary.com/billymitchell/image/upload/dpr_auto,fl_lossy,q_auto/bg_nppktd');
   background-position: center;
   background-size: cover;
   z-index: 1;
